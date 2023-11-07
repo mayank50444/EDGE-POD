@@ -94,7 +94,12 @@ Pod::Spec.new do |spec|
   # spec.source_files  = "Classes", "Classes/**/*.{h,m}"
   # spec.exclude_files = "Classes/Exclude"
   # spec.source_files  = "Edge/Classes/**/*"
-  spec.source_files = 'View/*.swift'
+  # spec.source_files = 'View/*.swift'
+  spec.source_files = [
+    "Edge/Classes/**/*.{h,m}",
+    "Edge/Edge.xcodeproj/**/*",
+    "View/**/*.swift"
+  ]
 
   # spec.public_header_files = "Classes/**/*.h"
 
