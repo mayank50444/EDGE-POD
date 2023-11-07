@@ -34,6 +34,9 @@ public struct Content: View {
              }
              Text("Hello, World!")
              Text("Hello, World!")
+             Text("Hello, World!")
+             Text("Hello, World!")
+             Text("Hello, World! Edge")
          }
     }
 }
