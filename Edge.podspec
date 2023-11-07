@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/mayank50444/EDGE-POD.git" }
+  spec.source       = { :git => "https://github.com/mayank50444/EDGE-POD.git", :commit => '51bc5bbf553173d8722e812dd85e76e7e9421269' }
   # spec.source       = { :http => 'file:' + __dir__ + "/" }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -107,7 +107,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.resource  = "icon.png"
-  # spec.resources = "Resources/*.png"
+  spec.resources     = 'Edge/View/**/*'
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
