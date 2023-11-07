@@ -93,7 +93,8 @@ Pod::Spec.new do |spec|
 
   # spec.source_files  = "Classes", "Classes/**/*.{h,m}"
   # spec.exclude_files = "Classes/Exclude"
-  spec.source_files  = "Edge/Classes/**/*"
+  # spec.source_files  = "Edge/Classes/**/*"
+  spec.source_files = 'View/*.swift'
 
   # spec.public_header_files = "Classes/**/*.h"
 
@@ -107,7 +108,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.resource  = "icon.png"
-  spec.resources     = 'Edge/View/**/*'
+  # spec.resources     = 'Edge/View/**/*'
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
