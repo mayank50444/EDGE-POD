@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/mayank50444/EDGE-POD.git", :commit => '51bc5bbf553173d8722e812dd85e76e7e9421269' }
+  spec.source       = { :git => "https://github.com/mayank50444/EDGE-POD.git"}
   # spec.source       = { :http => 'file:' + __dir__ + "/" }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
