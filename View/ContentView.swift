@@ -33,10 +33,10 @@ public struct Content: View {
                  .border(.blue)
              }
              Text("Hello, World!")
-             Text("Hello, World!")
-             Text("Hello, World!")
-             Text("Hello, World!")
-             Text("Hello, World! Edge")
+            //  Text("Hello, World!")
+            //  Text("Hello, World!")
+            //  Text("Hello, World!")
+            //  Text("Hello, World! Edge")
          }
     }
 }
