@@ -8,18 +8,18 @@
 import SwiftUI
 import RCHousing
 
-
 public protocol HousingAppDelegate: AnyObject {
-    func LaunchMethod()
+    func LaunchMethod(msg: String)
 }
 
 public class MyEdgeFrameworkClass {
     public init() {}
     public weak var delegate: HousingAppDelegate?
     public func doSomething() {
-        delegate?.LaunchMethod()
+        delegate?.LaunchMethod(msg: "I am called from Swift UI screen")
     }
 }
+
 
 struct QnATagsModel: Codable {
     private var data: [QnATagsDatum]?
@@ -67,7 +67,7 @@ public struct Content: View {
         NavigationView {
             VStack {
                 Button(action: {myEdgeFrameworkInstance.doSomething()}) {
-                    Text("Border Button")
+                    Text("Open Filetrs Screen")
                         .padding()
                         .border(.blue)
                 }
@@ -120,6 +120,8 @@ public struct Content: View {
                 }
                 
                 Text("Hello, World!")
+                
+                Image("AC")
                 
                 Button("Back to UIKit") {
                     presentationMode.wrappedValue.dismiss()
