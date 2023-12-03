@@ -96,8 +96,7 @@ Pod::Spec.new do |spec|
   # spec.source_files  = "Edge/Classes/**/*"
   # spec.source_files = 'View/*.swift'
   spec.source_files = [
-    "Edge/Classes/**/*.{h,m}",
-    "View/*.swift"
+    "/*.{h,m,swift,xcassets}"
   ]
 
   spec.preserve_paths = 'Edge.xcodeproj/*'
