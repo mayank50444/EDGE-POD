@@ -98,6 +98,8 @@ Pod::Spec.new do |spec|
   spec.source_files = [
     "/*.{h,m,swift,xcassets}"
   ]
+  
+  spec.resources = '/*.{storyboard,xib,xcassets,json,png}'
 
   spec.preserve_paths = 'Edge.xcodeproj/*'
   spec.resource_bundles = {
