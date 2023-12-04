@@ -95,7 +95,7 @@ Pod::Spec.new do |spec|
   # spec.exclude_files = "Classes/Exclude"
   # spec.source_files  = "Edge/Classes/**/*"
   # spec.source_files = 'View/*.swift'
-  spec.source_files = 'Classes/**/*.{h,m,swift}', 'More_Classes/**/*.{h,m,swift}'
+  spec.source_files = 'View/**/*.{h,m,swift}', 'More_Classes/**/*.{h,m,swift}'
 
   
   spec.resources = '*.{storyboard,xib,xcassets,json,png}'
