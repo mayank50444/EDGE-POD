@@ -96,10 +96,10 @@ Pod::Spec.new do |spec|
   # spec.source_files  = "Edge/Classes/**/*"
   # spec.source_files = 'View/*.swift'
   spec.source_files = [
-    "/*.{h,m,swift,xcassets}"
+    "*.{h,m,swift,xcassets}"
   ]
   
-  spec.resources = '/*.{storyboard,xib,xcassets,json,png}'
+  spec.resources = '*.{storyboard,xib,xcassets,json,png}'
 
   spec.preserve_paths = 'Edge.xcodeproj/*'
   spec.resource_bundles = {
